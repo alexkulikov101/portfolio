@@ -27,11 +27,11 @@
         return id;
       };
 
-    if (!window.cancelAnimationFrame)
-      window.cancelAnimationFrame = function(id) {
-        clearTimeout(id);
-      };
-  }());
+      if (!window.cancelAnimationFrame)
+        window.cancelAnimationFrame = function(id) {
+          clearTimeout(id);
+        };
+      }());
 
 
   // Parallax Constructor
@@ -87,8 +87,8 @@
     }
 
     this.position =
-      this.positionX + (isNaN(this.positionX)? '' : 'px') + ' ' +
-      this.positionY + (isNaN(this.positionY)? '' : 'px');
+    this.positionX + (isNaN(this.positionX)? '' : 'px') + ' ' +
+    this.positionY + (isNaN(this.positionY)? '' : 'px');
 
     if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
       if (this.imageSrc && this.iosFix && !this.$element.is('img')) {
@@ -289,15 +289,15 @@
       };
 
       $win.on('resize.px.parallax load.px.parallax', function() {
-          loadDimensions();
-          self.refresh();
-          Parallax.isFresh = false;
-          Parallax.requestRender();
-        })
-        .on('scroll.px.parallax load.px.parallax', function() {
-          loadScrollPosition();
-          Parallax.requestRender();
-        });
+        loadDimensions();
+        self.refresh();
+        Parallax.isFresh = false;
+        Parallax.requestRender();
+      })
+      .on('scroll.px.parallax load.px.parallax', function() {
+        loadScrollPosition();
+        Parallax.requestRender();
+      });
 
       loadDimensions();
       loadScrollPosition();
@@ -344,7 +344,7 @@
     },
     destroy: function(el){
       var i,
-          parallaxElement = $(el).data('px.parallax');
+      parallaxElement = $(el).data('px.parallax');
       parallaxElement.$mirror.remove();
       for(i=0; i < this.sliders.length; i+=1){
         if(this.sliders[i] == parallaxElement){
@@ -381,7 +381,7 @@
       }
       if (typeof option == 'string') {
         if(option == 'destroy'){
-            Parallax.destroy(this);
+          Parallax.destroy(this);
         }else{
           Parallax[option]();
         }
@@ -405,8 +405,8 @@
 
   // Parallax Data-API
 
-  $( function () { 
-    $('[data-parallax="scroll"]').parallax(); 
+  $( function () {
+    $('[data-parallax="scroll"]').parallax();
   });
 
 }(jQuery, window, document));
