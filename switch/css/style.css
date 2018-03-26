@@ -550,7 +550,7 @@ img {
   cursor: pointer;
 }
 .page-header {
-  background-image: url("../../img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 12px;
@@ -634,17 +634,17 @@ img {
   min-height: 340px;
 }
 .advantages__item--icon-camera {
-  background-image: url("../../img/Forma 1.png"), url("../../img/Rounded Rectangle 3.png");
+  background-image: url("../img/Forma 1.png"), url("../../img/Rounded Rectangle 3.png");
   background-repeat: no-repeat;
   background-position: center 30px, center top;
 }
 .advantages__item--icon-speed {
-  background-image: url("../../img/Forma 2.png"), url("../../img/Rounded Rectangle 3.png");
+  background-image: url("../img/Forma 2.png"), url("../../img/Rounded Rectangle 3.png");
   background-repeat: no-repeat;
   background-position: center 30px, center top;
 }
 .advantages__item--icon-portfolio {
-  background-image: url("../../img/Forma 3.png"), url("../../img/Rounded Rectangle 3.png");
+  background-image: url("../img/Forma 3.png"), url("../../img/Rounded Rectangle 3.png");
   background-repeat: no-repeat;
   background-position: center 30px, center top;
 }
