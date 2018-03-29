@@ -12,10 +12,9 @@
 });
 
 
- var btn = document.querySelector(".feedback__btn");
+/* var btn = document.querySelector(".feedback__btn");
  var modal  = document.querySelector(".modal");
  var close = document.querySelector(".modal__btn");
-
  btn.addEventListener("click", function(e){
   e.preventDefault();
   modal.classList.add("modal-show");
@@ -25,7 +24,7 @@
   e.preventDefault();
   modal.classList.add("modal-close");
 
-});
+});*/
 
 
 

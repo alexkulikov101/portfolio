@@ -543,14 +543,14 @@ img {
   height: 29px;
   top: 0;
   right: 30px;
-  background: url("../../img/icon-search.png") no-repeat;
+  background: url("../img/icon-search.png") no-repeat;
   background-size: 13px 14px;
   background-position: center;
   border: none;
   cursor: pointer;
 }
 .page-header {
-  background-image: url("../img/background.jpg");
+  background-image: url("../../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 12px;
@@ -634,17 +634,17 @@ img {
   min-height: 340px;
 }
 .advantages__item--icon-camera {
-  background-image: url("../img/Forma 1.png"), url("../../img/Rounded Rectangle 3.png");
+  background-image: url("../img/Forma 1.png"), url("../img/Rounded Rectangle 3.png");
   background-repeat: no-repeat;
   background-position: center 30px, center top;
 }
 .advantages__item--icon-speed {
-  background-image: url("../img/Forma 2.png"), url("../../img/Rounded Rectangle 3.png");
+  background-image: url("../img/Forma 2.png"), url("../img/Rounded Rectangle 3.png");
   background-repeat: no-repeat;
   background-position: center 30px, center top;
 }
 .advantages__item--icon-portfolio {
-  background-image: url("../img/Forma 3.png"), url("../../img/Rounded Rectangle 3.png");
+  background-image: url("../img/Forma 3.png"), url("../img/Rounded Rectangle 3.png");
   background-repeat: no-repeat;
   background-position: center 30px, center top;
 }
@@ -765,7 +765,7 @@ img {
   display: block;
   width: 14px;
   height: 10px;
-  background: url("../../img/arrow-left1.png");
+  background: url("../img/arrow-left1.png");
 }
 .gallery {
   margin: 0;
@@ -808,7 +808,7 @@ img {
   width: 13px;
   height: 22px;
   cursor: pointer;
-  background: url("../../img/arrow-left.png");
+  background: url("../img/arrow-left.png");
 }
 .feedback__box::after {
   position: absolute;
@@ -819,7 +819,7 @@ img {
   width: 13px;
   height: 22px;
   cursor: pointer;
-  background: url("../../img/arrow-right.png");
+  background: url("../img/arrow-right.png");
 }
 .feedback__text {
   font-family: "Proxima Nova Rg", sans-serif;
@@ -903,7 +903,7 @@ img {
   display: block;
   width: 14px;
   height: 10px;
-  background: url("../../img/arrow-left2.png");
+  background: url("../img/arrow-left2.png");
 }
 .team {
   background-color: #54d154;

@@ -673,6 +673,7 @@ background-position: center center; */
 .skills__list-one {
   margin: 0;
   margin: 0 auto;
+  list-style-type: square;
 }
 @media (max-width: 550px) {
   .skills__columns {
