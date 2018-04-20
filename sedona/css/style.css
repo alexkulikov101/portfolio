@@ -808,7 +808,7 @@ ul {
   text-transform: uppercase;
 }
 .advantages__item--triangle {
-  background-image: url("../../img/bg-triangle.svg");
+  background-image: url("../img/bg-triangle.svg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% auto;
@@ -1633,7 +1633,7 @@ ul {
   text-transform: uppercase;
 }
 .form-name__field {
-  width: 230px;
+  width: 205px;
   background-color: #f2f2f2;
   height: 58px;
   margin-left: 14px;
@@ -2028,7 +2028,7 @@ input[type="email"]::placeholder {
   height: 16px;
   top: 15px;
   left: 16px;
-  background-image: url("../../img/icon-tick.svg");
+  background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
